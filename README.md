@@ -15,8 +15,8 @@ Then, simply run the file `run_analysis.R`.  The tidy dataset will be output in 
 
 ## Process of analysis
 The data is provided in multiple separate files, and a number of steps must be taken to create the final dataset.
-1. The training and test datasets are merged to create a single dataset of the computed measurements.
-2. This dataset is filtered to only measurements representing mean or standard deviation.
-3. The authors' provided file `activity_labels.txt` is used to add a column of activity labels to the dataset.
-4. The authors' provided file `features.txt` is used to replace the dataset's column names with descriptive names corresponding to each computed measurement.
-5. The tidy dataset is written to a comma-separated-values (.csv) file.
+1. The training and test datasets are merged to create a single dataset of the computed measurements.  
+2. This dataset is filtered to only measurements representing mean or standard deviation.  
+3. The authors' provided file `activity_labels.txt` is used to add a column of activity labels to the dataset.  
+4. The authors' provided file `features.txt` is used to replace the dataset's column names with descriptive names corresponding to each computed measurement.  
+5. The tidy dataset is written to a comma-separated-values (.csv) file.  
